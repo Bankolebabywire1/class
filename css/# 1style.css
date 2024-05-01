@@ -1,0 +1,21 @@
+
+label {
+    color: green;
+    font-size: 20px;
+  }
+  
+  #email {
+      background-color: green;
+  }
+  
+  .divemail input.inputformemail {
+      background-color: blue;
+  }
+  
+  input, select {
+      padding:  10px 10px;
+      background-color: wheat!important;
+  {font-style: height: width: border: ;;;;}
+  }
+  
+

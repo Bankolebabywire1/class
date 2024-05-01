@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(29, 29, 29);
+}
+
+body {
+    background-color: rgb(240, 247, 252);
+}
+a {
+    text-decoration: none;
+    color: rgb(2, 42, 88);
+}
+p {
+    color: rgb(90, 89, 89);
+}
+h1 {
+    font-size: 27px;
+    color: rgb(50, 50, 50);
+}
+.btn-primary {
+    width: 100%;
+    padding: 15px;
+    width: 100%;
+    background-color: rgb(2, 42, 88);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.btn-primary:hover {
+    /* background-color: rgb(1, 69, 147); */
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 5px;
+    /* border-color: gray;
+    border-width: 1px; */
+}
+form {
+    background-color: white;
+    width: 600px;
+    margin: 50px auto;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; */
+    /* padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px; */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 29px -1px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0px 1px 29px -1px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 1px 29px -1px rgba(0, 0, 0, 0.10);
+}
+form h1 {
+    margin-bottom: 30px;
+}
+.inputGroup {
+    margin-top: 10px;
+   
+}
+
+.inputGroup label, .inputGroup input {
+    display: block;
+   
+}
+
+.termcondition {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.termcondition input {
+    width: 30px;
+}
+
+.form-footer  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-footer p {
+    font-size: 15px;
+}
+

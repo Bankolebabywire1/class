@@ -1,0 +1,22 @@
+
+body {
+    background-color: rgb(12, 7, 1);
+   
+}
+form {
+    background-color: rgb(231, 205, 162);
+    width: 400px;
+    margin: 35px auto;
+    padding: 35px;
+    border-radius: 9px;
+}
+    .btn-primary {
+        width: 70%;
+        padding: 10px;
+        width: 50%;
+        background-color: rgb(193, 193, 12);
+        color: rgb(10, 0, 0);
+
+        border-radius: 10px;
+        margin: 10px 0px;
+    }
